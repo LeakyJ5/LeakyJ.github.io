@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeakyJ - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 50px 20px;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin: 0 0 8px 0;
+            color: #ffffff;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            font-size: 1.05rem;
+            color: #9ca3af;
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+            color: #ffffff;
+            border-left: 3px solid #10b981;
+            padding-left: 12px;
+        }
+
+        .content-box {
+            background-color: #1f2937;
+            border-radius: 8px;
+            padding: 25px 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #d1d5db;
+        }
+
+        .content-box p {
+            margin: 0 0 15px 0;
+        }
+
+        .content-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        .job-title {
+            color: #10b981;
+            font-weight: 600;
+        }
+
+        .skill-group {
+            margin-bottom: 15px;
+        }
+
+        .skill-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .skill-group strong {
+            color: #ffffff;
+            display: inline-block;
+            margin-bottom: 4px;
+        }
+
+        .contact-area {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .discord-button {
+            display: inline-block;
+            background-color: #111827;
+            color: #10b981;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            border: 1px solid #374151;
+        }
+
+        .discord-button:hover {
+            background-color: #10b981;
+            color: #111827;
+            border-color: #10b981;
+        }
+
+        .vouch {
+            border-bottom: 1px solid #374151;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .vouch:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .vouch-by {
+            display: block;
+            font-size: 0.85rem;
+            color: #9ca3af;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>LEAKYJ</h1>
+            <div class="tagline">Minecraft Manager & Operations Specialist</div>
+        </header>
+
+        <section>
+            <h2>Summary</h2>
+            <div class="content-box">
+                I manage staff teams and infrastructure for Minecraft networks, focusing on server optimization, clear communication, and keeping operations running smoothly. I specialize in setting up secure management frameworks and fixing performance issues to maintain stable, lag-free gameplay.
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="content-box">
+                <ul>
+                    <li>
+                        <span class="job-title">Manager @ Leztusa</span>
+                        <br>
+                        Handled server tuning and lag optimization to maintain a steady 20 TPS baseline under heavy player loads. Oversaw deployment updates and general day-to-day server management.
+                    </li>
+                    <li>
+                        <span class="job-title">Admin @ BlueFox</span>
+                        <br>
+                        Managed daily staff operations, ran player investigation pipelines, and enforced internal safety and moderation policies across the network.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="content-box">
+                <div class="skill-group">
+                    <strong>Moderation Infrastructure</strong>
+                    <br>Custom setups for reports, tracking logs, player note histories, and staff escalation trees.
+                </div>
+                <div class="skill-group">
+                    <strong>Server Security</strong>
+                    <br>Configuring secure access controls, including two-factor authentication systems (`enable_2f`) for administrative ranks.
+                </div>
+                <div class="skill-group">
+                    <strong>Backend & API</strong>
+                    <br>Plugin configuration, database integration, server optimization patches, and Discord API linking.
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Vouches</h2>
+            <div class="content-box">
+                <div class="vouch">
+                    "Helped us fix major lag spikes and handled the staff team perfectly during active maintenance windows."
+                    <span class="vouch-by">— Leztusa Staff Lead</span>
+                </div>
+                <div class="vouch">
+                    "Reliable manager who takes account security and team organization seriously. Highly recommend."
+                    <span class="vouch-by">— BlueFox Owner / Admin</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="contact-area">
+            <a href="https://discord.com" class="discord-button" target="_blank">Message me on Discord</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
